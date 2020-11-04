@@ -13,10 +13,10 @@
             <p:panel header="BlckAddr">  
                 <h:panelGrid columns="2" cellpadding="5">  
                     <p:outputLabel for="msg" value="Nome:" />   
-                    <p:inputText id="msg" value="#{main.nome}" required="true" />  
+                    <p:inputText id="msg" value="#{src.Main.nome}" required="true" />  
                 </h:panelGrid>  
 
-                <p:commandButton value="Enviar" action="#{main.insereBloco}" update="@form" />
+                <p:commandButton value="Enviar" action="#{src.Main.insereBloco}" update="@form" />
             </p:panel>     
         </h:form>
     </h:body>

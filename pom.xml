@@ -16,19 +16,9 @@
     
     <dependencies>
         <dependency>
-            <groupId>primeGRUPO</groupId>
-            <artifactId>primeARTEFATO</artifactId>
-            <version>1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>gson</groupId>
-            <artifactId>gson</artifactId>
-            <version>2.6.2</version>
-        </dependency>
-        <dependency>
-            <groupId>jersey-bundle</groupId>
-            <artifactId>jersey-bundle</artifactId>
-            <version>1.19.4</version>
+            <groupId>com.sun.faces</groupId>
+            <artifactId>jsf-api</artifactId>
+            <version>2.2.20</version>
         </dependency>
         <dependency>
             <groupId>javax</groupId>
@@ -36,6 +26,21 @@
             <version>7.0</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.6.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.jersey</groupId>
+            <artifactId>jersey-bundle</artifactId>
+            <version>1.19.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.primefaces</groupId>
+            <artifactId>primefaces</artifactId>
+            <version>8.0</version>
+          </dependency>
     </dependencies>
 
     <build>
